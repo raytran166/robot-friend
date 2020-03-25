@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #687466;
+}
+
+.head {
+  width: 200px;
+  height: 150px;
+  background-color: #3282b8;
+  border-radius: 600px 600px 0 0;
+  margin: 0 auto;
+  transition: width 2s;
+}
+
+.head:hover {
+  width: 300px;
+}
+
+.eyes {
+  position: relative;
+}
+
+.left-eye, .right-eye {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.left-eye {
+  position: absolute;
+  top: 80px;
+  left: 45px;
+}
+
+.right-eye {
+  position: absolute;
+  top: 80px;
+  left: 130px;
+}
+
+.middle-part {
+  width: 300px;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.left-hand, .right-hand {
+  width: 30px;
+  height: 150px;
+  background-color: #3282b8;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.left-hand:hover {
+  transform: rotate(50deg);
+}
+
+.right-hand:hover {
+  transform: rotate(130deg);
+}
+
+.torse {
+  width: 200px;
+  height: 200px;
+  background-color: #3282b8;
+  border-radius: 0 0 30px 30px;
+  margin: 10px 10px;
+  margin-bottom: 0;
+}
+
+.lower-part {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.left-leg, .right-leg {
+  width: 30px;
+  height: 110px;
+  background-color: #3282b8;
+  border-radius: 0 0 30px 30px;
+}
+
+.left-leg {
+  margin-left: 70px;
+}
+
+.left-leg:hover {
+  transform: rotate(20deg);
+}
+
+.right-leg {
+  margin-left: 50px;
+}
